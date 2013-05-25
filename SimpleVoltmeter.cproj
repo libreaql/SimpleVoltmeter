@@ -67,7 +67,25 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="hd44780.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="hd44780.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="hd44780_settings.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="HelperFunctions.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="HelperFunctions.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="SimpleVoltmeter.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="SimpleVoltmeter.h">
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>
